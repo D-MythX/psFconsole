@@ -7,15 +7,15 @@ Osmconsole: it is a simple shell script used as a tool for pentesting.
 
 Name: Osman
 
-Github: https://github.com/Anonynusman/Osmconsole
+Github: https://github.com/Anonynusman/pSFconsole
 
 [+] Installation:-
 All in one installation 
-apt update && apt upgrade && apt install git && apt install python2 && git clone https://github.com/Anonynusman/Osmconsole && cd Osmconsole && chmod +x * && bash install.sh
+apt update && apt upgrade && apt install git && apt install python2 && git clone https://github.com/Anonynusman/Osmconsole && cd pSFconsole && chmod +x * && bash install.sh
 
 [+] Usage:-
 
-bash osmconsole.sh
+bash psf.sh
 
 show modules: to show available modules
 
