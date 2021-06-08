@@ -11,7 +11,7 @@ Github: https://github.com/Anonynusman/pSFconsole
 
 [+] Installation:-
 All in one installation 
-apt update && apt upgrade && apt install git && apt install python2 && git clone https://github.com/Anonynusman/Osmconsole && cd pSFconsole && chmod +x * && bash install.sh
+apt update && apt upgrade && apt install git && apt install python2 && git clone https://github.com/Anonynusman/pSFconsole && cd pSFconsole && chmod +x * && bash install.sh
 
 [+] Usage:-
 
