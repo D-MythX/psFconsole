@@ -220,7 +220,7 @@ ${B0}Console Commands${R0}
 
     Command     Description
     -------     -----------
-    ${C2}show${R0}        Command to displays option of a given type.
+    ${C2}show modules${R0}        Command to displays available modules.
     ${C2}quit${R0}        Command to exit psfconsole instance.
     ${C2}clear${R0}       Command to clear screen.
     ${C2}help${R0}        Command to show help meunu.
@@ -236,7 +236,7 @@ ${B0}Module Commands${R0}
     Command     Description
     -------     -----------
     ${C2}use${R0}         Command to call existing module${R1}s${R0}.
-    ${C2}list${R0}        Command to show available option${R1}s${R0}.
+    ${C2}list${R0}        Command to show available option in a module${R1}s${R0}.
     ${C2}info${R0}        Command to information about module${R1}s${R0}.
     ${C2}back${R0}        Command to move back to main console.
 
