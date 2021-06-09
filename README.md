@@ -1,7 +1,8 @@
 # pSFonsole
 A penetration Testing Framework Tool.
 
-Osmconsole: it is a simple shell script used as a tool for pentesting.
+
+pSFconsole: it is a simple shell script used as a tool for pentesting.
 
 [+] Author:-
 
