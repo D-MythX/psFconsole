@@ -1,0 +1,49 @@
+#!/bin/bash
+
+OS=$(uname -o | grep -o "Android")
+NAME="pentesting-framework"
+
+function START() {
+echo -e "${C4}(${R0}>${C4})${R0} Pentesting FrameworkRemoving..."
+}
+
+
+function COMPLETE() {
+echo -e "${C4}(${R0}>${C4})${R0} Removing compelete."
+}
+
+
+function ALREADY() {
+echo -e "${C4}(${R0}>${C4})${R0} Installed Files Not Exists
+${C4}(>)${R0} use -i for install."
+}
+
+function forTermux () {
+if [ -d "$PREFIX/share/${NAME}" ]
+then
+START
+rm $PREFIX/bin/psfconsole
+rm -rf $PREFIX/share/$NAME
+COMPLETE
+else
+ALREADY
+fi
+}
+
+function forLinux () {
+if [ -d "/usr/share/${NAME}" ]
+then
+START
+rm /usr/bin/psfconsole
+rm -rf /usr/share/$NAME
+COMPLETE
+else
+ALREADY
+fi
+}
+
+if [[ $OS == *'Android'* ]];then
+forTermux
+else
+forLinux
+fi

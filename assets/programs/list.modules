@@ -1,0 +1,368 @@
+#!/bin/bash
+
+# Modules Names
+
+declare -a MODULES=(
+phish
+bomber
+lookup
+remote
+brute
+attack
+secure
+)
+
+# SubModules Names
+
+declare -a SUBMODULES=(
+notpweb
+otpweb
+gpsweb
+camweb
+micweb
+callnsms
+user
+number
+payload
+social
+ddos
+hashes
+binary
+)
+
+# <--- Module 1 --->
+
+# sub module 1
+
+declare -a OSITES=(
+'Google.OTP'
+'Facebook.OTP'
+'Instagram.OTP'
+'Pinterest.OTP'
+'Amazon.OTP'
+'Twitch.OTP'
+'Snapchat.OTP'
+'Ebay.OTP'
+'Linkedin.OTP'
+'Netflix.OTP'
+'Paytm.OTP'
+'Gitlab.OTP'
+'CryptoCurrency.OPT'
+'Instafollow.OTP'
+'Protonmail.OTP'
+'Yahoo.OTP'
+'Paypal.OTP'
+'Telegram.OTP'
+'Mobikwik.OTP'
+'Wordpress.OTP'
+'Hotstar.OTP'
+'Flipkart.OTP'
+'Twitter.OTP'
+'Spotify.OTP'
+'Phonepay.OTP'
+'StackoverFlow.OTP'
+'WhatsApp.OTP'
+'Tiktok.OTP'
+'Ajio.OTP'
+'Uber.OTP'
+)
+
+# sub module 2
+
+declare -a SITES=(
+Google
+Facebook
+Microsoft
+Instagram
+DeviantArt
+Pinterest
+Badoo
+Twitch
+Snapchat
+Ebay
+Linkedin
+DropBox
+Netflix
+Mediafire
+Gitlab
+Github
+Yahoo
+Paypal
+Quora
+Wordpress
+Steam
+Yandex
+Twitter
+Spotify
+StackoverFlow
+Playstation
+Reddit
+Tiktok
+Adobe
+Xbox
+)
+
+# sub module 3
+
+declare -a GSITES=(
+NearYou
+Telegram
+WhatsApp
+Gdrive
+)
+
+# sub module 4
+
+declare -a CSITES=(
+Festival
+FriendBook
+JioOffer
+YouTube
+)
+
+# sub module 5
+
+declare -a MSITES=(
+'DefaultPage'
+)
+
+
+# <--- Module 3 --->
+
+# sub module 1
+
+declare -a USER=(
+'Username gethering'
+'IP Address lookup'
+)
+
+declare -a NUMBER=(
+'Number lookup'
+)
+
+# <--- Module 4 --->
+
+# sub module 1
+
+declare -a PAYLOADS=(
+'Android Payload'
+'Windows Payload'
+'Linux Payload x86_64'
+'Linux Payload x64'
+'Mac Payload x86_64'
+'Mac Payload x64'
+'Php Payload'
+'Python Payload'
+)
+
+
+# <--- Module 5 --->
+
+# sub module 1
+
+declare -a SOCIAL=(
+'Facebook Brutefore'
+'Instagram Bruteforce'
+)
+
+# sub module 2
+
+declare -a HASHES1=(
+'Md5 Bruteforce'
+'Sha1 Bruteforce'
+'Sha224 Bruteforce'
+'Sha256 Bruteforce'
+'Sha512 Bruteforce'
+)
+
+# <--- Module 6 --->
+
+# sub module 1
+
+declare -a DDOS=(
+'Site DDOS Attack'
+'IP DDOS Attack'
+)
+
+
+# <--- Module 7 --->
+
+# sub module 1
+
+declare -a HASHES=(
+Md5sum
+Sha1sum
+Sha224sum
+Sha256sum
+Sha384sum
+Sha512sum
+Shasum
+Base64
+Base32
+)
+
+# sub module 2
+
+declare -a PASSWD=(
+'Valid Number'
+'Valid String'
+'Valid Number+String'
+'Valid Special Character'
+'Valid String+Special Character'
+'Valid Number+Special Character'
+'Valid Number+String+Special Character'
+)
+
+
+# sub module 3
+
+declare -a BINARY=(
+'Binary Converter'
+)
+
+
+list1-m1() {
+echo
+for i in {0..8}
+  do
+  printf "${C4}(${R0}0$((i+1))${C4})${R0} ${OSITES[i]}\n"
+  WAIT
+done
+
+for i in {9..29}
+  do
+  printf "${C4}(${R0}$((i+1))${C4})${R0} ${OSITES[i]}\n"
+  WAIT
+done
+echo
+}
+
+list2-m1() {
+echo
+for i in {0..8}
+  do
+  printf "${C4}(${R0}0$((i+1))${C4})${R0} ${SITES[i]}\n"
+  WAIT
+done
+
+for i in {9..29}
+  do
+  printf "${C4}(${R0}$((i+1))${C4})${R0} ${SITES[i]}\n"
+  WAIT
+done
+echo
+}
+
+list3-m1() {
+echo
+for i in {0..3}
+  do
+  printf "${C4}(${R0}0$((i+1))${C4})${R0} ${GSITES[i]}\n"
+  WAIT
+done
+echo
+}
+
+list4-m1() {
+echo
+for i in {0..3}
+  do
+  printf "${C4}(${R0}0$((i+1))${C4})${R0} ${CSITES[i]}\n"
+  WAIT
+done
+echo
+}
+
+list5-m1() {
+echo
+  printf "${C4}(${R0}01${C4})${R0} ${MSITES[@]}\n"
+  WAIT
+echo
+}
+
+list1-m3() {
+echo
+for i in {0..1}
+  do
+  printf "${C4}(${R0}0$((i+1))${C4})${R0} ${USER[i]}\n"
+  WAIT
+done
+echo
+}
+
+
+list2-m3() {
+echo
+  printf "${C4}(${R0}run${C4})${R0} ${NUMBER[@]}\n"
+  WAIT
+echo
+}
+
+list1-m4() {
+echo
+for i in {0..7}
+  do
+  printf "${C4}(${R0}0$((i+1))${C4})${R0} ${PAYLOADS[i]}\n"
+  WAIT
+done
+echo
+}
+
+
+list1-m5() {
+echo
+for i in {0..1}
+  do
+  printf "${C4}(${R0}0$((i+1))${C4})${R0} ${SOCIAL[i]}\n"
+  WAIT
+done
+echo
+}
+
+list2-m5() {
+echo
+for i in {0..4}
+  do
+  printf "${C4}(${R0}0$((i+1))${C4})${R0} ${HASHES1[i]}\n"
+  WAIT
+done
+echo
+}
+
+
+list1-m6() {
+echo
+for i in {0..1}
+  do
+  printf "${C4}(${R0}0$((i+1))${C4})${R0} ${DDOS[i]}\n"
+  WAIT
+done
+echo
+}
+
+list1-m7() {
+echo
+for i in {0..8}
+  do
+  printf "${C4}(${R0}0$((i+1))${C4})${R0} ${HASHES[i]}\n"
+  WAIT
+done
+echo
+}
+
+list2-m7() {
+echo
+for i in {0..6}
+  do
+  printf "${C4}(${R0}0$((i+1))${C4})${R0} ${PASSWD[i]}\n"
+  WAIT
+done
+echo
+}
+
+list3-m7() {
+echo
+  printf "${C4}(${R0}run${C4})${R0} ${BINARY[@]}\n"
+  WAIT
+echo
+}
