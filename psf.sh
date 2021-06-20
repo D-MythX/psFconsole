@@ -3,7 +3,7 @@
 
 #┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 #┃ Project : Pentesting-Framework                              ┃
-#┃ Author  : Osman Mohammed                                 ┃
+#┃ Author  : Osman 穆罕默德                           ┃
 #┃ Version : 8.5.1 (Latest)                                    ┃
 #┃ Github  : anonynusman <github.com/anonynusman>    ┃
 #┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
@@ -37,8 +37,8 @@ PROMPT=1
 
 # Variable
 
-export RAWLINK=https://raw.githubusercontent.com/abhackerofficial/pentesting-framework/master
-export GITLINK=https://github.com/abhackerofficial/pentesting-framework
+export RAWLINK=https://raw.githubusercontent.com/Anonynusman/psFconsole/master/psf.sh
+export GITLINK=https://github.com/Anonynusman/psFconsole
 export OS=$(uname -o | grep -o "Android")
 export OUTPUT=$HOME/.history.psf
 CWD=$(pwd)
