@@ -17,5 +17,5 @@ command -v curl > /dev/null 2>&1 || { echo >&2 "I require curl but it's not inst
 
 }
 
-rm -rf /$HOME/pSFconsole && cd && git clone https://github.com/anonynusman/pSFconsole  && cd && cd .. && cd && cd pSFconsole && bash psf.sh
+rm -rf /$HOME/psFconsole && cd && git clone https://github.com/anonynusman/psFconsole  && cd && cd .. && cd && cd psFconsole && bash psf.sh
 
