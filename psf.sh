@@ -2,7 +2,7 @@
 #!/usr/bin/env bash
 
 #┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-#┃ Project : Pentesting-Framework                              ┃
+#┃ Project : psFconsole                             ┃
 #┃ Author  : Osman 穆罕默德                           ┃
 #┃ Version : 8.5.1 (Latest)                                    ┃
 #┃ Github  : anonynusman <github.com/anonynusman>    ┃
