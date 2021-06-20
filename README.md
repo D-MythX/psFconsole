@@ -1,10 +1,10 @@
 <p align="center">
-<a href="#"><img title="Welcome to pSFconsole" src="https://user-images.githubusercontent.com/63346676/114345764-ef20fb00-9b7f-11eb-80a9-87db5953f5ea.png"></a>
+<a href="#"><img title="Welcome to psFconsole" src="https://user-images.githubusercontent.com/63346676/114345764-ef20fb00-9b7f-11eb-80a9-87db5953f5ea.png"></a>
 </p>
 
 ![psfconsole](https://user-images.githubusercontent.com/63346676/119809462-c6bc4880-bf02-11eb-9756-0384878ead84.jpeg)
 
-[![Open in Cloud Shell](https://user-images.githubusercontent.com/27065646/92304704-8d146d80-ef80-11ea-8c29-0deaabb1c702.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/Anonynusman/pSFconsole&tutorial=README.md) [![Run on Repl.it](https://user-images.githubusercontent.com/27065646/92304596-bf719b00-ef7f-11ea-987f-2c1f3c323088.png)](https://repl.it/github/Anonynusman/pSFconsole)
+[![Open in Cloud Shell](https://user-images.githubusercontent.com/27065646/92304704-8d146d80-ef80-11ea-8c29-0deaabb1c702.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/Anonynusman/psFconsole&tutorial=README.md) [![Run on Repl.it](https://user-images.githubusercontent.com/27065646/92304596-bf719b00-ef7f-11ea-987f-2c1f3c323088.png)](https://repl.it/github/Anonynusman/psFconsole)
 
 > **[`Disclaimer`](#)**
 
@@ -14,7 +14,7 @@ The use of the `pSFconsole` and/or its resources is complete responsibility of t
 
 **Installation method of pSFconsole in your terminal.**
 
-```bash <(curl -sL git.io/pSf) --install```
+```bash <(curl -sL git.io/JnKeA) --install```
 
 > **[`Dependencies`](#)**
 
