@@ -144,11 +144,11 @@ This [pentesting-framework](https://github.com/Anonynusman/pSFconsole) is mainta
 <a href="https://paypal.me/OsmankAccra?locale.x=en_US"><img title="Donation" src="https://user-images.githubusercontent.com/74892618/104415238-a618d500-5597-11eb-82a4-46b7c1913e2c.png"></a>
 </p>
 
-| ![Anonynusman](https://user-images.githubusercontent.com/63346676/97066596-3f0d0500-15d4-11eb-9cb3-b7ed5206c6f6.png) |
+| ![Anonynusman](https://user-images.githubusercontent.com/85432917/122674138-5338ee80-d1c3-11eb-9970-d83742d088f5.jpg) |
 | ----------------------------------------------------------------------------------------------------- |
 | <p align="center"> [Anonynusman](https://github.com/Anonynusman)                                                   |</p>
 
 
-Pentesting-Framework has a vibrant community of happy users and delightful contributors and creditors. Without all the time and help from our contributors, it wouldn't be so awesome.
+  
 
 Thank you so much!
