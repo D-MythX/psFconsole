@@ -8,11 +8,11 @@
 
 > **[`Disclaimer`](#)**
 
-The use of the `pSFconsole` and/or its resources is complete responsibility of the end-user. Developers assume no liabiity and are not responsible for any misuse or damage caused by `pSFconsole`. Some of your actions may be illegal and you can not use this software to test someone without written permission from person or company.
+The use of the `psFconsole` and/or its resources is complete responsibility of the end-user. Developers assume no liabiity and are not responsible for any misuse or damage caused by `pSFconsole`. Some of your actions may be illegal and you can not use this software to test someone without written permission from person or company.
 
 > **[`Installation`](#)**
 
-**Installation method of pSFconsole in your terminal.**
+**Installation method of psFconsole in your terminal.**
 
 ```bash <(curl -sL git.io/JnKeA) --install```
 
@@ -28,7 +28,7 @@ The use of the `pSFconsole` and/or its resources is complete responsibility of t
 - `python2`
 - `python3`
 
-> **[`Psf Commands`](#)**
+> **[`psf Commands`](#)**
 
   ```
 Console Commands
