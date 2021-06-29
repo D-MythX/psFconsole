@@ -138,7 +138,8 @@ psf use(program/secure/hashes) > list
 
 > **[`Maintainer`](#)**
 
-This [pentesting-framework](https://github.com/Anonynusman/pSFconsole) is maintained by the following person.
+This [pentesting-framework](https://github.com/Anonynusman/pSFconsole) is maintained by the following person (Not the owner of tool).
+Owner of this tools was before kang [abhackerofficial](https://github.com/abhackerofficial/pentesting-framework)
 
 <p align="center">
 <a href="https://paypal.me/OsmankAccra?locale.x=en_US"><img title="Donation" src="https://user-images.githubusercontent.com/74892618/104415238-a618d500-5597-11eb-82a4-46b7c1913e2c.png"></a>
